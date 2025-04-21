@@ -1,0 +1,403 @@
+Standard,Term,Schema.org crosswalk,Parent Schema
+EOSC/EDMI,name(M),name,schema:Thing
+EOSC/EDMI,accessURL,distribution.contentUrl,schema:DataDownload
+EOSC/EDMI,identifier(M),identifier,schema:Thing
+EOSC/EDMI,sameAs(O),sameAs,schema:Thing
+EOSC/EDMI,url(M),url,schema:Thing
+EOSC/EDMI,citation(O)/ referenceCitation(O),citation,schema:CreativeWork
+EOSC/EDMI,keywords(R),keywords,schema:CreativeWork
+EOSC/EDMI,license(R),license,schema:CreativeWork
+EOSC/EDMI,creator(M),creator,schema:CreativeWork
+EOSC/EDMI,includedIn(dataset)(R),isPartOf,schema:CreativeWork
+EOSC/EDMI,includes(Dataset)(R),creator,schema:CreativeWork
+EOSC/EDMI,version(O),version,schema:CreativeWork
+EOSC/EDMI,temporalCoverage(O),temporalCoverage,schema:CreativeWork
+EOSC/EDMI,spatialCoverage(O),spatialCoverage,schema:CreativeWork
+EOSC/EDMI,measurementTechniques(R)*),measurementTechnique,schema:Dataset
+EOSC/EDMI,variableMeasured(R),variableMeasured,"schema:dataCatalog, schema:Dataset, schema:DataDownload"
+EOSC/EDMI,includedIn(R),includedInDataCatalog,schema:Dataset
+EOSC/EDMI,distribution(R),distribution,schema:Dataset
+EOSC/EDMI,dateCreated(M),dateCreated,schema:Thing
+EOSC/EDMI,datePublished(O),datePublished,schema:CreativeWork
+EOSC/EDMI,dateModified(M),dateModified,schema:CreativeWork
+EOSC/EDMI,format(R),encordingFormat,schema:Thing
+EOSC/EDMI,size(R),contentSize,schema:MediaObject
+ISO-19115-1,identification/abstract(M),description (R),schema:Thing
+ISO-19115-1,identification/citation//title(M),name(R),schema:Thing
+ISO-19115-1,distributionInfo//online//linkage [function = download],distribution.contentUrl,schema:DataDownload
+ISO-19115-1,identification/citation/identifier/code,identifier,schema:Thing
+ISO-19115-1,identification/citation/alternateTitle(O),alternateName,schema:Thing
+ISO-19115-1,identification/citation//identifier/code (use authority or codespace in Identifier to indicate context for this alternate identifier)),sameAs,schema:Thing
+ISO-19115-1,distributionInfo//transferOptions/onLine/linkage [function = information],url,schema:Thing
+ISO-19115-1,identification/associatedResource/CI_Citation (suggest using associationType from dataCite vocabulary),citation,schema:CreativeWork
+ISO-19115-1,identification/descriptiveKeywords/keyword,keywords,schema:CreativeWork
+ISO-19115-1,"identification/resourceConstraints/reference/CI_Citation, or text in MD_LegalConstraints/useLimitation [restrictionCode = license]",license,schema:CreativeWork
+ISO-19115-1,"identification/citation/citedResponsibleParty/name [role = one of {author, coAuthor, originator, editor}]",creator,Schema:CreativeWork
+ISO-19115-1,identifcation/associatedResource/name/CI_Citation [associationType = 'largerWorkCitation'],isPartOf,schema:CreativeWork
+ISO-19115-1,identifcation/associatedResource/name/CI_Citation [associationType = 'isComposedOf'],hasPart,schema:CreativeWork
+ISO-19115-1,identification/citation/edition,version,schema:CreativeWork
+ISO-19115-1,identification/extent/temporalElement/extent/TM_Primitive,temporalCoverage,schema:CreativeWork
+ISO-19115-1,"identification/extent/geographicElement/EX_GeographicBounding box or EX_BoundingPolygon with GM_Object is Point for centroid/Some profiles recommend putting place names in keywords, keywordTypeCode = 'place'",spatialCoverage,schema:CreativeWork
+ISO-19115-1,resourceLineage/statement,measurementTechnique,schema:Dataset
+ISO-19115-1,contentInfo//featureCatalogue [requires import of ISO 19110],variableMeasured,"schema:DataCatalog, schema:Dataset, schema:DataDownload"
+ISO-19115-1,identification/associatedResource/name/CI_Citation [associationType = 'collectiveTitle'],includedInDataCatalog,schema:Dataset
+ISO-19115-1,distributionInfo/MD_Distribution/transferOptions,distribution,schema:Dataset
+ISO-19115-1,distributionInfo/MD_Distribution/transferOptions/distributionFormat,distribution.encodingFormat,schema:Dataset
+ISO-19115-1,identification/credit or MD_Identification/citation//citedResponsibleParty//name [role = funder],funder,schema:Datadownload
+ISO-19115-1,identification/citation/citedResponsibleParty/name [role = publisher],publisher,schema:CreativeWork
+ISO-19115-1,identification/pointOfContact//name (for the resource); MD_Metadata/contact/name (for the metadata record),contactPoint,schema:CreativeWork
+ISO-19115-1,identification/topicCategory;additional categories in MD_Identification/descriptiveKeywords/keyword [type = subTopicCategory],about OR subjectOf,schema:Thing
+ISO-19115-1,language (for metadata record content language); MD_DataIdentification/language (for resource content language),inLanguage,"schema:CreativeWork, schema:Thing"
+ISO-19115-1,dataInfo [dateType = creation] for metadata record; MD_Identification/citation//date [dateType = creation] for the described resource,dateCreated,schema:Thing
+ISO-19115-1,dateType=publication,datePublished,schema:CreativeWork
+ISO-19115-1,dateType=lastUpdate,dateModified,schema:CreativeWork
+ISO-19115-1,identification/resourceConstaints/responsibleParty/name [restrictionCode = copyright],copyrightHolder,schema:CreativeWork
+ISO-19115-1,identifcation/associatedResource/name/CI_Citation [associationType = 'crossReference'],mentions,schema:CreativeWork
+ISO-19115-1,resourceLineage/source/sourceCitation,isBasedOn,schema:CreativeWork
+ISO-19115-1,identifcation/associatedResource/name/CI_Citation [associationType = 'crossReference'],isRelatedTo,schema:CreativeWork
+ISO-19115-1,distributionInfo//transferOptions//distributionFormat//medium//name,encodingFormat,schema:Thing
+ISO-19115-1,distributionInfo/online/linkage [function = download],contentURL,schema:CreativeWork
+ISO-19115-1,distributionInfo//transferOptions//transferSize (and unitsOfDistribution),contentSize,schema:MediaObject
+ISO-19115-1,distributionInfo/transferOptions/transferFrequency,repeatFrequency,schema:MediaObject
+ISO-19115-1,identification/citation/citedResponsibleParty/name [role = funder],funder,schema:Thing
+ISO-19115-1,contributor,schema:CreativeWork,
+ISO-19115-1,identification/citation/citedResponsibleParty/name [role = https://schema.org/producer],producer,schema:CreativeWork
+ISO-19115-1,identification/citation//citedResponsibleParty//name [role = editor],editor,schema:CreativeWork
+ISO-19115-1,identification/citation/date [dateType = https://schema.org/copyrightYear],copyrightYear,schema:CreativeWork
+ISO-19115-1,identification/resourceConstraints/MD_LegalConstraints,isAccessibleForFree,schema:CreativeWork
+ISO-19115-1,identification/resourceConstraints/MD_LegalConstraints,"""in proposing: https://github.com/schemaorg/schemaorg/issues/2173""",
+ISO-19115-1,dataQualityInfo/DQ_DataQuality (import ISO19157),,
+ISO-19115-1,resourceLineage/statement,measurementTechnique,schema:Dataset
+ISO-19115-1,identification/associatedResource,,
+Dataverse,Description; DescriptionValue(M),description,schema:Thing
+Dataverse,Title(M),name,schema:Thing
+Dataverse,Dataset Persistent ID,identifier,schema:Thing
+Dataverse,alternative title,alternateName,schema:Thing
+Dataverse,Alternative URI,sameAs,schema:Thng
+Dataverse,Related Publication,citation,schema:CreativeWork
+Dataverse,Subject (M); Topic Classification Term; Keywords,keywords,schema:CreativeWork
+Dataverse,Author; authorName(M),creator,schema:CreativeWork
+Dataverse,version,version,schema:CreativeWork
+Dataverse,Time Period Covered,temporalCoverage,schema:Dataset
+Dataverse,Grant Information,funder,schema:Datadownload
+Dataverse,Dataset Publisher,publisher,schema:CreativeWork
+Dataverse,Language,inLanguage,"schema:CreativeWork, schema:Thing"
+Dataverse,Date of collection,dateCreated,schema:Thing
+Dataverse,Publication Date,datePublished,schema:CreativeWork
+Dataverse,Version Date,dateModified,schema:CreativeWork
+Dataverse,Grant information,funder,schema:Things:schedule
+Dataverse,Contributor,contributor,schema:CreativeWork
+Dataverse,Producer,producer,schema:CreativeWork
+DCAT-AP,dct:description(M),description,schema:Thing
+DCAT-AP,dct:title(M),name(R),schema:Thing
+DCAT-AP,dct:accessURL (M)/dct:downloadURL (O),distribution.contentUrl,schema:DataDownload
+DCAT-AP,dct:identifier,identifier,schema:Thing
+DCAT-AP,foaf:homepage,url,schema:Thing
+DCAT-AP,dct:keyword(R),keywords,schema:CreativeWork
+DCAT-AP,dct:license,license,schema:CreativeWork
+DCAT-AP,dct:creator,creator,schema:CreativeWork
+DCAT-AP,dct:isPartOf(R),isPartof,schema:CreativeWork
+DCAT-AP,dcat:hasPart(R),hasPart,schema:CreativeWork
+DCAT-AP,owl:versionInfo,version,schema:CreativeWork
+DCAT-AP,dct:temporal,temporalCoverage,schema:CreativeWork
+DCAT-AP,dct:spatial,spatialCoverage,schema:CreativeWork
+DCAT-AP,dct:distribution(R),distribution,schema:Dataset
+DCAT-AP,dct:format,distribution.encodingFormat,schema:DataDownload
+DCAT-AP,dct:publisher(R)),dpublisher,schema:CreativeWork
+DCAT-AP,dct:contactPoint(R),contactPoint,schema:Thing
+DCAT-AP,dcat:theme (R)/dct:subject(O),about or subjectOf,schema:CreativeWork or schema:Thing
+DCAT-AP,dct:language(R),inLanguage,schema:Thing
+DCAT-AP,dct:created(O),dateCreated,schema:CreativeWork
+DCAT-AP,issued(R),datePublished,schema:CreativeWork
+DCAT-AP,dct:modified(O),dateModified,schema:CreativeWork
+DCAT-AP,dct:rightsHolder(O),copyrightHolder,schema:CreativeWork
+DCAT-AP,dct:relation,mentions,schema:CreativeWork
+DCAT-AP,dct:source(O),isBasedOn,schema:CreativeWork
+DCAT-AP,dct:relation,isRelatedTo,schema:Thing
+DCAT-AP,dct:format (R)/dct:mediaType(O),encodingFormat,schema:CreativeWork
+DCAT-AP,dcat:accessURL (M)/dcat:downloadURL(O),contentURL,schema:MediaObject
+DCAT-AP,dct:byteSize(O),contentSize,schema:MediaObject
+DCAT-AP,dcterms:accrualPeriodicity,drepeatFrequency,schema:Thing:Schedule
+DCAT-AP,dcterms:contributor,funder,schema:CreativeWork
+DCAT-AP,dcterms:contributor,contributor,schema:CreativeWork
+DCAT-AP,dcterms:contributor,producer,schema:CreativeWork
+DCAT-AP,dcterms:dateCopyrighted,copyrightYear,schema:CreativeWork
+DCAT-AP,dct:rights(O),,
+DCAT-AP,dct:accessRights(O),"""in proposing: https://github.com/schemaorg/schemaorg/issues/2173""",
+DCAT-AP,dct:conformsTo,,
+DCAT-AP,dct:hasVersion,,
+DCAT-AP,dct:isVersionOf,,
+DCAT-AP,dct:provenance,,
+DCATv3,dcterms:description,description(R),schema:Thing
+DCATv3,dcterms:title,name(R),schema:Thing
+DCATv3,dcat:downloadURL,distribution.contentUrl,schema:DataDownload
+DATSv3,dcterms:identifier,identifier,schema:Thing
+DATSv3,rdfs:label/skos:altLabel,alternateName,schema:Thing
+DATSv3,owl:sameAs/ skos:exactMatch,sameAs,schema:Thing
+DATSv3,dcat:endPointURL,url,schema:Thing
+DATSv3,dcterms:bibliographicCitation,citation,schema:CreativeWork
+DATSv3,dcat:keywords,keywords,schema:CreativeWork
+DATSv3,dct:license,license,schema:CreativeWork
+DATSv3,dcterms:creator,creator,schema:CreativeWork
+DATSv3,dcterms:isPartOf,isPartOf,schema:CreativeWork
+DATSv3,dcterms:hasPart,hasPart,schema:CreativeWork
+DATSv3,owl:versionInfo,version,schema:CreativeWork
+DATSv3,dcterms:temporal,temporalCoverage,schema:CreativeWork
+DATSv3,dcterms:spatial,spatialCoverage,schema:CreaativeWork
+DATSv3,sosa:usedProcedure,measurementTechnique,schema:Dataset/chema:DataCatalog
+DATSv3,sosa:observedProperty,variableMeasured,schema:Dataset
+DATSv3,dcterms:isPartOf,includedInDataCatalog,schema:Dataset
+DATSv3,dcat:distribution,distribution,schema:Dataset
+DATSv3,dcat:mediaType/dcterms:format,distribution.encodingFormat,schema:DataDownload
+DATSv3,dcterms:contributor,funder,schema:CreativeWork
+DATSv3,dcterms:publisher,publisher,schema:CreativeWork
+DATSv3,dct:ContactPoint(R),contactPoint,schema:Thing
+DATSv3,dcat:theme(R)/ dcterms:subject(O),about or SubjectOf,schema:CreativeWork/schema:Thing
+DATSv3,dcterms:language,inLanguage,schema:Thing
+DATSv3,dcterms:created(O),dateCreated,schema:CreativeWork
+DATSv3,dcterms:dateAccepted,datePublished,schema:CreativeWork
+DATSv3,dcterms:modified,dateModified,schema:CreativeWork
+DATSv3,dcterms:rightHolder,copyrightHolder,schema:CreativeWork
+DATSv3,dct:relation,mentions,schema:CreativeWork
+DATSv3,dct:relation,mentions,schema:Dataset
+DATSv3,dct:source(O),isBasedOn,schema:CreativeWork
+DATSv3,dct:relation,isRelatedTo,schema:Thing
+DATSv3,dct:format(R)/dct:mediaType(O),encodingFormat,schema:CreativeWork
+DATSv3,dcat:downloadURL,contentURL,schema:MediaObject
+DATSv3,dct:byteSize,contentSize,schema:MediaObject
+DATSv3,dcterms:accrualPeriodicity,repeatFrequency,schema:Thing:Schedule
+DATSv3,dcterms:contributor,funder,schema:CreativeWork
+DATSv3,dcterms:contributor,contributor,schema:CreativeWork
+DATSv3,dcterms:contributor,producer,schema:CreativeWork
+DATSv3,dcterms:dateCopyrighted,copyrightYear,schema:CreativeWork
+DATSv3,dct:rights,,
+DATSv3,dct:accessRights,in proposing: https://github.com/schemaorg/schemaorg/issues/2173,
+DATSv3,dct:conformsTo,,
+DATSv3,prov:qualifiedAttribution,,
+Datacite,description(R),description,schema:Thing
+Datacite,Title(M),name,schema:Thing
+Datacite,Identifier(M),identifier,schema:Thing
+Datacite,titleType,alternateName,schema:Thing
+Datacite,RelatedIdentifier/ AlternateIdentifier(O)*,sameAs,schema:Thing
+Datacite,valueURL,url,schema:Thing
+Datacite,isReferencedBy/isDocumentedBy,citation,schema:CreativeWork
+Datacite,Subject(R)*,keywords,schema:CreativeWork
+Datacite,Rights,license,schema:CreativeWork
+Datacite,Creator(M),creator,schema:CreativeWork
+Datacite,isPartOf,isPartOf,schema:CreativeWork
+Datacite,hasPart,hasPart,schema:CreativeWork
+Datacite,Version(O),version,schema:CreativeWork
+Datacite,date,temporalCoverage,schema:CreativeWork
+Datacite,GeoLocation(R),spatialCoverage,schema:CreativeWork
+Datacite,publisher,includedInDataCatalog,schema:Dataset
+Datacite,distribution,distribution,schema:Dataset
+Datacite,format,distribution.encodingFormat,schema:CreativeWork
+Datacite,contributor with ContributorType/Sponsor(O)*,funder,schema:CreativeWork
+Datacite,Publisher(M),publisher,schema:CreativeWork
+Datacite,Subject*,about or subjectOf,schema:CreativeWork/schema:Thing
+Datacite,Language,inLanguage,schema:CreativeWork
+Datacite,Date(R)/Created,dateCreated,schema:CreativeWork
+Datacite,PublicationYear(M),datePublished,schema:CreativeWork
+Datacite,Date(R)/Updated*,dateModified,schema:CreativeWork
+Datacite,isContinuedBy/isCompiledBy/isOriginalFromOf/isSourceOf/isDerivedFrom,isBasedOn,schema:CreativeWork
+Datacite,Format(O)*,encodingFormat,schema:CreativeWork
+Datacite,Size(O)*,contentSize,schema:MediaObject
+Datacite,contributor with ContributorType/Sponsor(O)*,funder,schema:CreativeWork
+Datacite,contributor(R),contributor,schema:CreativeWork
+Datacite,"contributor with contributortype=""Producer""",producer,schema:CreativeWork
+Datacite,Copyrighted,copyrightYear,schema:CreativeWork
+Datacite,Rights(O)*,,
+Datacite,hasVersion,,k
+Datacite,isVersionOf,,k
+RIF-CS,"""collection/description[@type='brief']/collection/description[@type='full']",description,schema:Thing
+RIF-CS,registryObject:collection:name,name(R),schema:Thing
+RIF-CS,registryObject:collection:name (Title as displayed in RDA),name,schema:Thing
+RIF-CS,"location/address/electronic @type=""url"" @ target=""directDownload""",distribution.contentUrl,schema:DataDownload
+RIF-CS,collection/citationInfo/citationMetadata/identifier AND/OR collection/identifier,identifier,schema:Thing
+RIF-CS,"RDA key= URL of record.""https://researchdata.ands.org.au/view?key=",url,schema:Thing
+RIF-CS,collection/relatedInfo[@type='publication']/relatedObject:collection where related collection [@type='publication'],citation,schema:CreativeWork
+RIF-CS,collection/subject,keywords,schema:CreativeWork
+RIF-CS,collection/rights/licence[@rightsURI] AND/OR collection/rights/licence[@type] AND collection/rights/licence,license,schema:CreativeWork
+RIF-CS,collection/citationInfo/citationMetadata/contributor OR relatedObject|relatedInfo party/name where relation=IsPrincipalInvestigatorOf OR relatedObject|relatedInfo party/name where relation=author OR relatedObject|relatedInfo party/name where relation=coInvestigator OR relatedObject|relatedInfo party/name where relation=hasCollector,creator,schema:CreativeWork
+RIF-CS,relatedObject|relatedInfo collection where relation[@type='isPartOf'],isPartOf,schema:CreativeWork
+RIF-CS,relatedObject|relatedInfo collection where relation[@type='hasPart'],schema:CreativeWork,
+RIF-CS,registryObject:collection:citationInfo:citationMetadata:version,version,schema:CreativeWork
+RIF-CS,registryObject:collection:citationInfo:citationMetadata:version,version,
+RIF-CS,collection/coverage/temporal,temporalCoverage,schema:CreativeWork
+RIF-CS,collection/coverage/spatial,spatialCoverage,schema:CreativeWork
+RIF-CS,"location/address/electronic @type=""url"" @ target=""directDownload""",distribution,schema:Dataset
+RIF-CS,relatedObject|relatedInfo party/name where relation=isFundedBy,funder,schema:CreativeWork
+RIF-CS,registryObject:collection:citationInfo:citationMetadata:publisher OR registryObject@Group,publisher,schema:CreativeWork
+RIF-CS,collection/subject,about or subjectOf,schema:CreativeWork/schema:Thing
+RIF-CS,"(default to English) ""en""",inLanguage,schema:Thing
+RIF-CS,collection/citationInfo/citationMetadata/date[@type= 'created'] OR collection/dates[@type='created'],dateCreated,schema:CreativeWork
+RIF-CS,collection/citationInfo/citationMetadata/date[@type='publicationDate'] OR collection/citationInfo/citationMetadata/date[@type='issued'] OR collection/dates[@type='dc.issued'] OR collection/dates[@type='dc.available'] OR date the record was ingested into RDA,encodingFormat,schema:CreativeWork
+RIF-CS,relatedObject|relatedInfo party/name where relation=isFundedBy,funder,schema:CreativeWork
+RIF-CS,collection/rights,,
+DC,Description - dcterms:description,description,schema:Thing
+DC,dcterms:altrenative,alternatename,schema:Thing
+DC,Title - dcterms:title,name,schema:Thing
+DC,dc:identifier (if URL),url,schema:Thing
+DC,Language -dcterms:language,inLanguage,schema:Thing
+DC,dcterms:isReferencedBy/dc:relation,citation,schema:CreativeWork
+DC,Subject - dcterm:subject,keywords,schema:CreativeWork
+DC,Rights,license,schema:CreativeWork
+DC,Creator,creator,schema:CreativeWork
+DC,dcterms:isPartOf,isPartOf,schema:CreativeWork
+DC,dcterms:hasPart,hasPart,schema:CreativeWork
+DC,dcterms:temporal (start); dcterms:temporal (end),temporalCoverage,schema:CreativeWork
+DC,dcterms:coverage (spatial),spatialCoverager,schema:CreativeWork
+DC,dcterms:isPartOf,distribution,schema:Dataset
+DC,dcterms:format,distribution.encodingFormat,schema:DataDownload
+DC,dcterms:contributor,funder,schema:CreativeWork
+DC,publisher - dcterms:publisherr,publisher,schema:CreativeWork
+DC,dcterms:mediator,contactPoint,schema:Thing
+DC,Language -dcterms:language,inLanguage,schema:Thing
+DC,dcerms:created,dateCreated,schema:CreativeWork
+DC,dcterms:dateAccepted,datePublished,schema:CreativeWork
+DC,dcterms:modified,datModified,schema:CreativeWork
+DC,dcterms:rightsHolder,copyrightHolder,schema:CreativeWork
+DC,dcterms:relation,mentions,schema:CreativeWork
+DC,dc:source,isBasedOn,schema:CreativeWork
+DC,dct:relation,isRelatedTo,schema:Thing
+DC,dct:format(R)/dct:mediaType(O),encodingFormat,schema:CreativeWork
+DC,collSize,contentSize,schema:MediaObject
+DC,dcterms:accrualPeriodicity,repeatFrequency,schema:Thing:Schedule
+DC,dcterms:contributor,funder,schema:CreativeWork
+DC,Contributor - dcterms:contributor (Depositor),contributor,schema:CreativeWork
+DC,dcterms:contributor,producer,schema:Thing
+DC,dcterms:dateCopyrighted,copyrightYear,schema:CreativeWork
+DC,rights,,
+DC,dct:accessRights,"""in proposing: https://github.com/schemaorg/schemaorg/issues/2173""",
+BioSchema,description(M),description,schema:Thing
+BioSchema,name(M),name,schema:Thing
+BioSchema,distribution,distribution.contentUrl,schema:DataDownload
+BioSchema,identifier(M),identifier,schema:Thing
+BioSchema,alternateName,alternateName,schema:Thing
+BioSchema,url(M),url,schema:Thing
+BioSchema,citation(R),citation,schema:CreativeWork
+BioSchema,keyword(M),keywords,schema:CreativeWork
+BioSchema,License(R),license,schema:CreativeWork
+BioSchema,creator(R),creator,schema:CreativeWork
+BioSchema,version(R),version,schema:CreativeWork
+BioSchema,measurementTechnique(R),measurementTechnique,schema:Dataset/schema:DataCatalog
+BioSchema,variablesMeasured(R),variableMeasured,schema:Dataset
+BioSchema,includedInDataCatalog(M),includedIndataCatalog,schema:Dataset
+BioSchema,distribution,distribution,schema:Dataset
+BioSchema,encodingFormat,distribution.encodingFormat,schema:DataDownload
+BioSchema,dct:contactPoint,contactPoint,schema:Thing
+BioSchema,dateCreated,dateCreated,schema:CreativeWork
+BioSchema,dateModified,dateModified,schema:CreativeWork
+B2FIND,Description(R),description,schema:Thing
+B2FIND,Title(M),name,schema:Thing
+B2FIND,Identifier(M),identifier,schema:Thing
+B2FIND,Title(M),name,schema:Thing
+B2FIND,Rights(O),license,schema:CreativeWork
+B2FIND,Creator(R),creator,schema:CreativeWork
+B2FIND,Temporal Coverage(O),temporalCoverage,schema:CreativeWork
+B2FIND,Spatial Coverage(O),spatialCoverage,schema:CreativeWork
+B2FIND,Publisher(R),publisher,schema:CreativeWork
+B2FIND,Language(O),inLanguage,schema:Thing
+B2FIND,PublicationYear(R),datePublished,schema:CreativeWork
+B2FIND,Contributor(O),contributor,schema:CreativeWork
+DDI,abstract,description(R),schema:Thing
+DDI,titl,name(R),schema:Thing
+DDI,IDNo,identifier,schema:Thing
+DDI,altTitl,alternateName,schema:Thing
+DDI,accsPlac,url,schema:Thing
+DDI,relPubl(biblCit),citation,schema:CreativeWork
+DDI,keywords,keywords,schema:CreativeWork
+DDI,rights,license,schema:CreativeWork
+DDI,AuthEnty*,creator,schema:CreativeWork
+DDI,isPartOf,isPartOf,schema:CreativeWork
+DDI,hasPart,hasPart,schema:CreativeWork
+DDI,version,version,schema:CreativeWork
+DDI,temporal,temporalCoverage,schema:CreativeWork
+DDI,geogCover/geoBndBox/coverage,spatialCoverage,schema:CreativeWork
+DDI,instrumentDevelopment,measurementTechnique,schema:Dataset/schema:dataCatalogk
+DDI,measure,variableMeasured,schema:Dataset
+DDI,distrbtr(URI),distribution,schema:Dataset
+DDI,grantNo(agency),funder,schema:Dataset
+DDI,publisher,publisher,schema:CreativeWork
+DDI,contact,contactPoint,schema:Thing
+DDI,language,inLanguage,schema:Thing
+DDI,created,dateCreated,schema:CreativeWork
+DDI,distDate(for export),datePublished,schema:CreativeWork
+DDI,version(date),dateModified,schema:CreativeWork
+DDI,derivation,isBasedOn,schema:CreativeWork
+DDI,format medium,encodingFormat,schema:CreativeWork
+DDI,contributor,contributor,schema:CreativeWork
+DDI,producer,producer,schema:CreativeWork
+DDI,avlStatuc/dataAccs,isAccessibleForFree,schema:CreativeWork
+DDI,rights disclaimer,,
+DDI,accessRights,in proposing: https://github.com/schemaorg/schemaorg/issues/2173,
+DDI,hasVersion,,
+DDI,isVersionOf,,
+DDI,method/relation/software,,
+SPASE,ResourceHeader/Description,description(R),schema:Thing
+SPASE,ResourceHeader/ResourceName,name(R),schema:Thing
+SPASE,AccessInformation/AccessURL/URL,distribution.contentUrl,schema:DataDownload
+SPASE,ResourceHeader/DOI/ResourceID,identifier,schema:Thing
+SPASE,ResourceHeader/AlternateName,alternateName,schema:Thing
+SPASE,ResourceHeader/InformationURL/URL,SameAs,schema:Thing
+SPASE,AccessInformation/AccessURL/URL,url,schema:Thing
+SPASE,ResourceHeader/PublicationInfo,citation,schema:CreativeWork
+SPASE,keyword,keyword,schema:CreativeWork
+SPASE,ResourceHeader/Contact[@role=PrincipalInvestigator],creator,schema:CreativeWork
+SPASE,ParentID (only for Granule resource type),isPartOf,schema:CreativeWork
+SPASE,ProviderVersion,version,schema:CreativeWork
+SPASE,TemporalDescription/TimeSpan,"temporalCoverage/td>
+                    schema:CreativeWork",schema:CreativeWork
+SPASE,ObservedRegion,spatialCoverage,schema:CreativeWork
+SPASE,MeasurementType,measurementTechnique,schema:Dataset/ schema:data catalogue/ schema: Data Download
+SPASE,Parameter,variableMeasured,schema:Dataset
+SPASE,AccessInformation/Format,distribution.encodingFormat,schema:DataDownload
+SPASE,ResourceHeader/Funding/Agency,funder,schema:CreativeWork
+SPASE,ResourceHeader/Contact[@role=Publisher],publisher,schema:CreativeWork
+SPASE,ResourceHeader/Contact,contactPoint,schema:Thing
+SPASE,ReleaseDate,datePublished,schema:CreativeWork
+SPASE,RevisionHistory/RevisionEvent/ReleaseDate*,dateModified,schema:CreativeWork
+SPASE,AccessInformation/Format,encodingFormat,schema:CreativeWork
+SPASE,ResourceHeader/Funding/Agency,funder,schema:CreativeWork
+SPASE,ResourceHeader/Contact[@role=Contributor],contributor,schema:CreativeWork
+SPASE,AccessRights*,in proposing: https://github.com/schemaorg/schemaorg/issues/2173,
+SPASE,RevisionHistory*,,
+CODEMETA,description,description(R),schema:Thing
+CODEMETA,name,name(R),schema:Thing
+CODEMETA,identifier,identifier,schema:Thing
+CODEMETA,SameAs,sameAS,schema:Thing
+CODEMETA,url,url,schema:Thing
+CODEMETA,citation,citation,schema:CreativeWork
+CODEMETA,keywords,keywords,schema:CreativeWork
+CODEMETA,license,license,schema:CreativeWork
+CODEMETA,auhtor,creator,schema:CreativeWork
+CODEMETA,isPart,isPart,schema:CreativeWork
+CODEMETA,hasPart,hasPart,schema:CreativeWork
+CODEMETA,version,version,schema:CreativeWork
+CODEMETA,funder,funder,schema:CreativeWork
+CODEMETA,publisher,publisher,schema:CreativeWork
+CODEMETA,dateCreated,dateCreated,schema:CreativeWork
+CODEMETA,datePublished,datePublished,schema:CreativeWork
+CODEMETA,dateModified,dateModified,schema:CreativeWork
+CODEMETA,copyrightHolder,"copyrightHolder,schema:CreativeWork",copyrightHolder,schema:CreativeWork"
+CODEMETA,enocdingFormat,encodingFormat,schema:CreativeWork
+CODEMETA,funder,funder,schema:CreativeWork
+CODEMETA,contributor,contributor,schema:CreativeWork
+CODEMETA,producer,producer,schema:CreativeWork
+CODEMETA,editor,editor,schema:CreativeWork
+CODEMETA,copyrightYear,copyrightYear,schema:CreativeWork
+CODEMETA,isAccessibleForFree,isAccessibleForFree,schema:CreativeWork
+ECRIN Clinical Research Metadata Schema,Description(R),description(R),schema:Thing
+ECRIN Clinical Research Metadata Schema,Object Title(M),name(R),schema:Thing
+ECRIN Clinical Research Metadata Schema,DOI(M),identifier,schema:Thing
+ECRIN Clinical Research Metadata Schema,"Related resource identifiers, with relation type indicator(R)",sameAs,schema:Thing
+ECRIN Clinical Research Metadata Schema,Rights(O),license,schema:Thing
+ECRIN Clinical Research Metadata Schema,creators(M),creator,schema:CreativeWork
+ECRIN Clinical Research Metadata Schema,version(O),version,schema:CreativeWork
+ECRIN Clinical Research Metadata Schema,Publisher/Provider(M),publisher,schema:CreativeWork
+ECRIN Clinical Research Metadata Schema,Access Conatct (M),contactPoint,schema:Thing
+ECRIN Clinical Research Metadata Schema,language(R),inLanguage,schema:Thing
+ECRIN Clinical Research Metadata Schema,Dates (date type)(O),dateCreated,schema:CreativeWork
+ECRIN Clinical Research Metadata Schema,Creation Year(M),datePublished,schema:CreativeWork
+ECRIN Clinical Research Metadata Schema,Dates(date Type)(O),dateModified,schema:CreativeWork
+ECRIN Clinical Research Metadata Schema,Contributors(O),contributor,schema:CreativeWork
