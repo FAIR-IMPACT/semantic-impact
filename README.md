@@ -12,7 +12,7 @@ Region | Project  | Funding information | Work Package |
 
 Input field in Codemeta schema: funding.
 
-Output contains a list of predicted fields from DataCite:
+Output contains a list of predicted fields from schema.org:
 ```
 {
     "response": "Okay, let's analyze the provided knowledge base and select relevant properties for describing a \u201cfunding\u201d concept.\n\n
@@ -33,6 +33,24 @@ Explanation of Relevance:**\n\nThese properties work together to create a compre
     ]
 }
 ```
+
+# Benchmarks
+
+Available manually curated semantic mappings from [RDA Metadata Schemes WG](https://rd-alliance.github.io/Research-Metadata-Schemas-WG/):
+* EOSC/EDMI
+* ISO-19115-1
+* Dataverse
+* DCAT-AP
+* DCATv3
+* Datacite
+* RIF-CS
+* DC
+* BioSchema
+* B2FIND
+* DDI
+* SPASE
+* CodeMeta
+* ECRIN Clinical Research Metadata Schem
 
 # Credits
 
