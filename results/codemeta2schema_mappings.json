@@ -1,0 +1,352 @@
+{
+    "programmingLanguage": [
+        "https://schema.org/class of programmingLanguage",
+        "https://schema.org/rangeIncludes"
+    ],
+    "review": [
+        "https://schema.org/reviewRating",
+        "https://schema.org/reviewBody",
+        "https://schema.org/reviewAspect",
+        "https://schema.org/review"
+    ],
+    "runtimePlatform": [
+        "https://schema.org/runtimePlatform",
+        "https://schema.org/Text"
+    ],
+    "targetProduct": [
+        "https://schema.org/rangeIncludes: SoftwareApplication",
+        "https://schema.org/targetProduct"
+    ],
+    "applicationCategory": [
+        "https://schema.org/applicationCategory",
+        "https://schema.org/Text",
+        "https://schema.org/URL"
+    ],
+    "applicationSubCategory": [
+        "https://schema.org/rangeIncludes: Text, URL",
+        "https://schema.org/applicationSubCategory",
+        "https://schema.org/Text",
+        "https://schema.org/URL"
+    ],
+    "downloadUrl": [
+        "https://schema.org/downloadUrl",
+        "https://schema.org/installUrl",
+        "https://schema.org/contentUrl",
+        "https://schema.org/serviceUrl",
+        "https://schema.org/mobileUrl"
+    ],
+    "fileSize": [
+        "https://schema.org/fileSize",
+        "https://schema.org/b540d9c6"
+    ],
+    "installUrl": [
+        "https://schema.org/installUrl",
+        "https://schema.org/URL"
+    ],
+    "memoryRequirements": [
+        "https://schema.org/memoryRequirements"
+    ],
+    "permissions": [
+        "https://schema.org/d68d9885 permissions",
+        "https://schema.org/authorizeAction"
+    ],
+    "processorRequirements": [
+        "https://schema.org/processorRequirements",
+        "https://schema.org/Text",
+        "https://schema.org/SoftwareApplication"
+    ],
+    "releaseNotes": [
+        "https://schema.org/Text",
+        "https://schema.org/URL"
+    ],
+    "softwareHelp": [
+        "https://schema.org/softwareHelp",
+        "https://schema.org/CreativeWork"
+    ],
+    "softwareRequirements": [
+        "https://schema.org/softwareRequirements",
+        "https://schema.org/softwareVersion",
+        "https://schema.org/SoftwareApplication",
+        "https://schema.org/processorRequirements",
+        "https://schema.org/storageRequirements",
+        "https://schema.org/memoryRequirements",
+        "https://schema.org/browserRequirements",
+        "https://schema.org/carrierRequirements",
+        "https://schema.org/softwareHelp",
+        "https://schema.org/requirements"
+    ],
+    "softwareVersion": [
+        "https://schema.org/softwareVersion",
+        "https://schema.org/Text"
+    ],
+    "storageRequirements": [
+        "https://schema.org/rangeIncludes: Text, URL"
+    ],
+    "supportingData": [
+        "https://schema.org/supportingData",
+        "https://schema.org/DataFeed",
+        "https://schema.org/Property",
+        "https://schema.org/rangeIncludes",
+        "https://schema.org/SoftwareApplication"
+    ],
+    "author": [
+        "https://schema.org/Organization",
+        "https://schema.org/Person",
+        "https://schema.org/rel"
+    ],
+    "citation": [
+        "https://schema.org/rangeIncludes: Text, CreativeWork"
+    ],
+    "contributor": [
+        "https://schema.org/contributor",
+        "https://schema.org/04320a09",
+        "https://schema.org/Article",
+        "https://schema.org/PublicationVolume",
+        "https://schema.org/SpecialAnnouncement",
+        "https://schema.org/Organization",
+        "https://schema.org/Person"
+    ],
+    "copyrightHolder": [
+        "https://schema.org/rangeIncludes: Person, Organization"
+    ],
+    "copyrightYear": [
+        "https://schema.org/copyrightYear",
+        "https://schema.org/Number"
+    ],
+    "dateCreated": [
+        "https://schema.org/dateCreated",
+        "https://schema.org/dateIssued",
+        "https://schema.org/dateReceived",
+        "https://schema.org/dateSent",
+        "https://schema.org/Date",
+        "https://schema.org/birthDate",
+        "https://schema.org/Person",
+        "https://schema.org/dateDeleted",
+        "https://schema.org/deathDate",
+        "https://schema.org/datePosted",
+        "https://schema.org/DateTime"
+    ],
+    "dateModified": [
+        "https://schema.org/DataFeedItem",
+        "https://schema.org/CreativeWork",
+        "https://schema.org/dateModified",
+        "https://schema.org/dateIssued"
+    ],
+    "datePublished": [
+        "https://schema.org/datePublished",
+        "https://schema.org/Date"
+    ],
+    "editor": [
+        "https://schema.org/class of editor",
+        "https://schema.org/Person"
+    ],
+    "encoding": [
+        "https://schema.org/MediaObject",
+        "https://schema.org/encoding"
+    ],
+    "fileFormat": [
+        "https://schema.org/Text",
+        "https://schema.org/URL",
+        "https://schema.org/fileFormat",
+        "https://schema.org/rangeIncludes"
+    ],
+    "funder": [
+        "https://schema.org/type: Property",
+        "https://schema.org/Property"
+    ],
+    "keywords": [
+        "https://schema.org/keywords"
+    ],
+    "license": [
+        "https://schema.org/CreativeWork",
+        "https://schema.org/URL"
+    ],
+    "producer": [
+        "https://schema.org/producer",
+        "https://schema.org/f59745de",
+        "https://schema.org/Organization",
+        "https://schema.org/Person"
+    ],
+    "provider": [
+        "https://schema.org/Organization or Person",
+        "https://schema.org/Person",
+        "https://schema.org/Organization"
+    ],
+    "publisher": [
+        "https://schema.org/rangeIncludes",
+        "https://schema.org/publisher"
+    ],
+    "sponsor": [
+        "https://schema.org/Organization or Person",
+        "https://schema.org/sponsor"
+    ],
+    "version": [
+        "https://schema.org/version",
+        "https://schema.org/d969ba74"
+    ],
+    "isAccessibleForFree": [
+        "https://schema.org/isAccessibleForFree",
+        "https://schema.org/free",
+        "https://schema.org/ItemAvailability"
+    ],
+    "isPartOf": [
+        "https://schema.org/isPartOf",
+        "https://schema.org/CreativeWork"
+    ],
+    "hasPart": [
+        "https://schema.org/hasPart",
+        "https://schema.org/CreativeWork",
+        "https://schema.org/isPartOf"
+    ],
+    "position": [
+        "https://schema.org/rangeIncludes: Integer",
+        "https://schema.org/Text"
+    ],
+    "description": [
+        "https://schema.org/Text",
+        "https://schema.org/photos",
+        "https://schema.org/aircraft"
+    ],
+    "identifier": [
+        "https://schema.org/a224907f",
+        "https://schema.org/Text",
+        "https://schema.org/URL",
+        "https://schema.org/PropertyValue",
+        "https://schema.org/identifier"
+    ],
+    "name": [
+        "https://schema.org/c02deb25 name",
+        "https://schema.org/c02deb25"
+    ],
+    "sameAs": [
+        "https://schema.org/sameAs"
+    ],
+    "url": [
+        "https://schema.org/URL",
+        "https://schema.org/serviceUrl",
+        "https://schema.org/contentUrl",
+        "https://schema.org/maps",
+        "https://schema.org/targetUrl",
+        "https://schema.org/image"
+    ],
+    "relatedLink": [
+        "https://schema.org/URL",
+        "https://schema.org/relatedLink"
+    ],
+    "givenName": [
+        "https://schema.org/givenName",
+        "https://schema.org/Text",
+        "https://schema.org/Person"
+    ],
+    "familyName": [
+        "https://schema.org/familyName",
+        "https://schema.org/Person"
+    ],
+    "email": [
+        "https://schema.org/email",
+        "https://schema.org/Text\\",
+        "https://schema.org/Text"
+    ],
+    "affiliation": [
+        "https://schema.org/affiliation",
+        "https://schema.org/Organization"
+    ],
+    "address": [
+        "https://schema.org/PostalAddress",
+        "https://schema.org/Text"
+    ],
+    "reviewAspect": [
+        "https://schema.org/reviewAspect"
+    ],
+    "reviewBody": [
+        "https://schema.org/reviewBody",
+        "https://schema.org/Review"
+    ],
+    "endDate": [
+        "https://schema.org/endDate",
+        "https://schema.org/domainIncludes",
+        "https://schema.org/startDate",
+        "https://schema.org/orderDate",
+        "https://schema.org/dateIssued",
+        "https://schema.org/birthDate",
+        "https://schema.org/deathDate",
+        "https://schema.org/Number"
+    ],
+    "roleName": [
+        "https://schema.org/roleName"
+    ],
+    "startDate": [
+        "https://schema.org/startDate",
+        "https://schema.org/applicationStartDate",
+        "https://schema.org/Date",
+        "https://schema.org/DateTime"
+    ],
+    "softwareSuggestions": [
+        "https://schema.org/SoftwareSourceCode",
+        "https://schema.org/SoftwareApplication",
+        "https://schema.org/applicationSubCategory",
+        "https://schema.org/applicationCategory",
+        "https://schema.org/softwareVersion",
+        "https://schema.org/softwareRequirements",
+        "https://schema.org/softwareAddOn",
+        "https://schema.org/URL",
+        "https://schema.org/Text",
+        "https://schema.org/programmingModel"
+    ],
+    "maintainer": [
+        "https://schema.org/maintainer",
+        "https://schema.org/isBasedOn"
+    ],
+    "continuousIntegration": [
+        "https://schema.org/71e6f3a6 vehicleSeatingCapacity",
+        "https://schema.org/cssSelector"
+    ],
+    "buildInstructions": [
+        "https://schema.org/recipeInstructions",
+        "https://schema.org/subPropertyOf",
+        "https://schema.org/step"
+    ],
+    "developmentStatus": [
+        "https://schema.org/IncentiveStatusInDevelopment"
+    ],
+    "embargoEndDate": [
+        "https://schema.org/endDate",
+        "https://schema.org/Date",
+        "https://schema.org/DateTime",
+        "https://schema.org/expectedArrivalUntil",
+        "https://schema.org/legislationDate"
+    ],
+    "funding": [
+        "https://schema.org/Grant",
+        "https://schema.org/funder",
+        "https://schema.org/FundingAgency",
+        "https://schema.org/Organization",
+        "https://schema.org/Person",
+        "https://schema.org/Project"
+    ],
+    "issueTracker": [
+        "https://schema.org/TrackAction",
+        "https://schema.org/issueNumber",
+        "https://schema.org/Class",
+        "https://schema.org/type",
+        "https://schema.org/domainIncludes"
+    ],
+    "referencePublication": [
+        "https://schema.org/referencePublication",
+        "https://schema.org/citedIn",
+        "https://schema.org/citation",
+        "https://schema.org/isCitedBy",
+        "https://schema.org/publicationType",
+        "https://schema.org/MedicalScholarlyArticle",
+        "https://schema.org/Audiobook",
+        "https://schema.org/DigitalDocument"
+    ],
+    "hasSourceCode": [
+        "https://schema.org/class of hasSourceCode"
+    ],
+    "isSourceCodeOf": [
+        "https://schema.org/isSourceCodeOf",
+        "https://schema.org/SoftwareSourceCode",
+        "https://schema.org/SoftwareApplication"
+    ]
+}

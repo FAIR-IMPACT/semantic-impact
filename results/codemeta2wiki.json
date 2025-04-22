@@ -1,0 +1,263 @@
+{
+    "programmingLanguage": [
+        "P3966",
+        "P277"
+    ],
+    "runtimePlatform": [
+        "P400",
+        "P1414"
+    ],
+    "targetProduct": [
+        "P6884",
+        "P1056"
+    ],
+    "applicationCategory": [
+        "P4290"
+    ],
+    "applicationSubCategory": [
+        "P12238",
+        "P404"
+    ],
+    "downloadUrl": [
+        "P4945",
+        "P1065",
+        "P4945"
+    ],
+    "memoryRequirements": [
+        "P12323"
+    ],
+    "operatingSystem": [
+        "P306"
+    ],
+    "permissions": [
+        "P4967",
+        "P7228",
+        "P2848"
+    ],
+    "processorRequirements": [
+        "P1141"
+    ],
+    "softwareHelp": [
+        "P1547",
+        "P348"
+    ],
+    "softwareRequirements": [
+        "P1547"
+    ],
+    "softwareVersion": [
+        "P4669",
+        "P348",
+        "P348"
+    ],
+    "storageRequirements": [
+        "P2928",
+        "P4967"
+    ],
+    "author": [
+        "P50",
+        "P1628"
+    ],
+    "citation": [
+        "P2860",
+        "P856",
+        "P2860",
+        "P7937",
+        "P7937",
+        "P577",
+        "P856",
+        "P1433"
+    ],
+    "copyrightHolder": [
+        "P7763"
+    ],
+    "copyrightYear": [
+        "P577",
+        "P7763"
+    ],
+    "dateCreated": [
+        "P585"
+    ],
+    "dateModified": [
+        "P585",
+        "P2567"
+    ],
+    "datePublished": [
+        "P577",
+        "P577"
+    ],
+    "encoding": [
+        "P3294",
+        "P10",
+        "P688",
+        "P1629"
+    ],
+    "fileFormat": [
+        "P3381",
+        "P856",
+        "P2701",
+        "P856",
+        "P7367",
+        "P348",
+        "P1976",
+        "P6153",
+        "P3294",
+        "P1195",
+        "P1065",
+        "P7569"
+    ],
+    "funder": [
+        "P3153",
+        "P6758",
+        "P859"
+    ],
+    "keywords": [
+        "P2572",
+        "P2354"
+    ],
+    "license": [
+        "P7367"
+    ],
+    "producer": [
+        "P162",
+        "P108",
+        "P162",
+        "P108",
+        "P1729",
+        "P272",
+        "P415"
+    ],
+    "provider": [
+        "P176",
+        "P175",
+        "P162",
+        "P1192"
+    ],
+    "publisher": [
+        "P108",
+        "P108"
+    ],
+    "sponsor": [
+        "P859",
+        "P2389",
+        "P6758",
+        "P2828"
+    ],
+    "isPartOf": [
+        "P361"
+    ],
+    "hasPart": [
+        "P361"
+    ],
+    "position": [
+        "P1629",
+        "P179",
+        "P13359",
+        "P1629",
+        "P8307",
+        "P360"
+    ],
+    "identifier": [
+        "P4070",
+        "P3153"
+    ],
+    "sameAs": [
+        "P856",
+        "P4656",
+        "P1629",
+        "P1896"
+    ],
+    "relatedLink": [
+        "P1065",
+        "P7084",
+        "P856"
+    ],
+    "givenName": [
+        "P1560",
+        "P735"
+    ],
+    "familyName": [
+        "P2889",
+        "P735"
+    ],
+    "email": [
+        "P968",
+        "P1817"
+    ],
+    "affiliation": [
+        "P1416",
+        "P2389",
+        "P1416",
+        "P69",
+        "P69"
+    ],
+    "name": [
+        "P735",
+        "P2460"
+    ],
+    "address": [
+        "P6375"
+    ],
+    "reviewAspect": [
+        "P4032"
+    ],
+    "reviewBody": [
+        "P4032"
+    ],
+    "endDate": [
+        "P582",
+        "P585",
+        "P1534",
+        "P585"
+    ],
+    "roleName": [
+        "P2868",
+        "P175",
+        "P175",
+        "P84",
+        "P6440",
+        "P10527"
+    ],
+    "startDate": [
+        "P585",
+        "P571",
+        "P585"
+    ],
+    "softwareSuggestions": [
+        "P3295"
+    ],
+    "maintainer": [
+        "P126",
+        "P2460",
+        "P968",
+        "P11266",
+        "P1817"
+    ],
+    "buildInstructions": [
+        "P2795",
+        "P10527"
+    ],
+    "developmentStatus": [
+        "P5817"
+    ],
+    "embargoEndDate": [
+        "P11140"
+    ],
+    "funding": [
+        "P6195",
+        "P12526"
+    ],
+    "referencePublication": [
+        "P6366",
+        "P291"
+    ],
+    "hasSourceCode": [
+        "P3295",
+        "P2037",
+        "P1324"
+    ],
+    "isSourceCodeOf": [
+        "P1547",
+        "P4290",
+        "P3295"
+    ]
+}
