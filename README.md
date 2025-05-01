@@ -9,11 +9,21 @@ Region | Project  | Funding information | Work Package |
 | EU | [FAIR-Impact]([http://odissei-data.nl](https://www.fair-impact.eu)) | Horizon 2020 GA 101057344 | WP6 |
 
 # Quick start
-
+Note: This is Proof of Concept of ontology alignment service, all mappings should be checked by human.
 ```
 pip3 install -r requirements.txt
 cd src
 python3 cli_codemeta.py
+```
+Expected results:
+```
+CodeMeta field: programmingLanguage
+programmingLanguage ['P3966', 'P3966', 'P277', 'P277']
+        P3966 "programming paradigm" https://www.wikidata.org/wiki/Property:P3966
+        P277 "programmed in" https://www.wikidata.org/wiki/Property:P277
+CodeMeta field: runtimePlatform
+runtimePlatform ['P400']
+        P400 "platform" https://www.wikidata.org/wiki/Property:P400
 ```
 
 # Extended Demo
