@@ -32,7 +32,7 @@ if __name__ == "__main__":
             if len(split_text.split()) > 1:
                 queries.append(split_text)
             for query in queries:
-                print(f"query: {query}")
+                print(f"CodeMeta field: {query}")
                 context = row['Type']
                 query+= f" {context} {row['Description']}"
                 query = query.replace("/", " ")
