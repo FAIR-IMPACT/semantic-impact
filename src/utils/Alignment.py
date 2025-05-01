@@ -84,7 +84,7 @@ class CosineDistance:
                         context_set[s1].append(s2)
 
         #if self.DEBUG:
-        print(f"\t[DEBUG CONTEXT] {context_set}")
+        #print(f"\t[DEBUG CONTEXT] {context_set}")
         for key, value in context_set.items():
             if key not in self.filter:
                 for ranking in ('', 'rankingweights'):
@@ -93,7 +93,7 @@ class CosineDistance:
                     wikilink = f"{self.host}/wikilink/?term={key}&context={'+'.join(value)}&language=en&format=json&property={property}"
                     if ranking:
                         wikilink += f"&rankingweights={ranking}"
-                    print(f"{wikilink}")
+                    #print(f"{wikilink}")
                     dataitem = {}
                     if self.DEBUG:
                         print(f"\t[DEBUG CONTEXT one] {key} {' '.join(value)}")
