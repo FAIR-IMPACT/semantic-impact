@@ -18,7 +18,7 @@ python3 cli_codemeta.py
 Expected results:
 ```
 CodeMeta field: programmingLanguage
-programmingLanguage ['P3966', 'P3966', 'P277', 'P277']
+programmingLanguage ['P3966', 'P277']
         P3966 "programming paradigm" https://www.wikidata.org/wiki/Property:P3966
         P277 "programmed in" https://www.wikidata.org/wiki/Property:P277
 CodeMeta field: runtimePlatform
