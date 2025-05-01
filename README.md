@@ -8,7 +8,15 @@ Region | Project  | Funding information | Work Package |
 | ------------- | ------------- | ------------- | ------------- |
 | EU | [FAIR-Impact]([http://odissei-data.nl](https://www.fair-impact.eu)) | Horizon 2020 GA 101057344 | WP6 |
 
-# Demo
+# Quick start
+
+```
+pip3 install -r requirements.txt
+cd src
+python3 cli_codemeta.py
+```
+
+# Extended Demo
 
 Input field in Codemeta schema: funding.
 
